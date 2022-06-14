@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.blofin.myjbox2d.four.JBoxCollisionView
+        android:id="@+id/mobike_jbox_view"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        />
+
+    <TextView
+        android:id="@+id/mobike_jbox_jump"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#678678"
+        android:gravity="center"
+        android:text="模拟跳动"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/mobike_jbox_jumps"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#678678"
+        android:gravity="center"
+        android:onClick="testClick"
+        android:text="添加"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:textSize="26sp"
+            android:text="我是边界"
+            android:onClick="testClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.blofin.myjbox2d.widget.JboxView
+        android:background="@mipmap/background"
+        android:id="@+id/jbox_view"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"></com.blofin.myjbox2d.widget.JboxView>
+</LinearLayout>
