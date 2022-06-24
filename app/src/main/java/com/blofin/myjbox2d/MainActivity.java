@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.blofin.myjbox2d.five.FiveActivity;
 import com.blofin.myjbox2d.four.FourActivity;
 import com.blofin.myjbox2d.three.ThreeActivity;
 import com.blofin.myjbox2d.two.TwoActivity;
@@ -38,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
     public void fourClick(View view){
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, FourActivity.class);
+        startActivity(intent);
+    }
+    public void fiveClick(View view){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, FiveActivity.class);
         startActivity(intent);
     }
 }
